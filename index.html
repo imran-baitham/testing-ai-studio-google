@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Pricing Designs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- 
+      Fonts Used:
+      1. Inter (Minimal)
+      2. JetBrains Mono (Cyber/Code)
+      3. Space Grotesk (Neo-Pop)
+      4. Playfair Display & Lato (Elegant)
+      5. Outfit (Glass/Modern)
+    -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Lato:wght@300;400;700&family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+              pop: ['Space Grotesk', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+              elegant: ['Lato', 'sans-serif'],
+              modern: ['Outfit', 'sans-serif'],
+            },
+            colors: {
+              cyber: {
+                dark: '#0a0a0f',
+                card: '#13131f',
+                primary: '#00f0ff',
+                secondary: '#7000ff',
+              },
+              neo: {
+                yellow: '#ffde59',
+                purple: '#8e44ad',
+                black: '#1a1a1a',
+              }
+            }
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
